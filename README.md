@@ -5,12 +5,14 @@ To write a python program to find the rank of a matrix
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-### Step 1: 
-### Step 2: 
-### Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
-### Step 4: 
+
+### Step 1: Input Matrix A (square matrix).
+### Step 2: Check: Compute the determinant of A.f it is zero, print that the matrix is non-invertible and stop.
+### Step 3: Compute: If the determinant is non-zero, use np.linalg.inv(A) to compute the inverse.
+### Step 4: Output: Print the inverse matrix.
+
 ## Program:
-## Output:
+
 ~~~
 #Program to find the rank of a matrix.
 #Developed by:JOTHIMANI P 
@@ -22,9 +24,10 @@ A=[[1,2,3],[3,6,9]]
 solution=np.linalg.matrix_rank(A)
 print(solution)
 ~~~
+
 ## Output:
 
-![image](https://github.com/user-attachments/assets/f9fb4132-b23c-4527-87bb-3938ed797cbe)
+![image](https://github.com/user-attachments/assets/7febbcbd-68db-40ec-9e9b-cb29103c762c)
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
